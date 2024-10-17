@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCOUNT_CODE" xml:space="preserve">
+    <value>Số tài khoản</value>
+  </data>
+  <data name="ACCOUNT_DESCRIPTION" xml:space="preserve">
+    <value>Diễn giải</value>
+  </data>
+  <data name="ACCOUNT_ENGLISH_NAME" xml:space="preserve">
+    <value>Tên tiếng anh</value>
+  </data>
+  <data name="ACCOUNT_NAME" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="ACCOUNT_NATURE" xml:space="preserve">
+    <value>Tính chất</value>
+  </data>
+  <data name="ACCOUNT_STATUS" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="BOTH" xml:space="preserve">
+    <value>Lương tính</value>
+  </data>
+  <data name="CANT_CHOOSE_STOP" xml:space="preserve">
+    <value>Tài khoản &lt;{0}&gt;   đang ở trạng thái &lt;Ngừng sử dụng&gt;. Bạn không được phép chọn thuộc tài khoản này.</value>
+  </data>
+  <data name="CANT_CHOOSE_STOP_FOR_CHILD" xml:space="preserve">
+    <value>Tài khoản &lt;{0}&gt; đang ở trạng thái &lt;Ngừng sử dụng&gt;. Bạn không thể thiết lập trạng thái \"Sử dụng\" cho &lt;{1}&gt; con.</value>
+  </data>
+  <data name="CHANGE_FAIL" xml:space="preserve">
+    <value>Sửa không thành công. Không thể sửa danh mục cha.</value>
+  </data>
+  <data name="DEBT" xml:space="preserve">
+    <value>Dư nợ</value>
+  </data>
+  <data name="DELETE_FAIL" xml:space="preserve">
+    <value>Xóa không thành công. Không thể xóa danh mục cha khi chưa xóa con.</value>
+  </data>
+  <data name="EXCESS" xml:space="preserve">
+    <value>Dư có</value>
+  </data>
+  <data name="EXISTED_ACCOUNT_CODE" xml:space="preserve">
+    <value>Số tài khoản &lt;{0}&gt; đã tồn tại</value>
+  </data>
+  <data name="EXISTED_CODE" xml:space="preserve">
+    <value>Mã {0} đã tồn tại.</value>
+  </data>
+  <data name="NEED_STARTWITH_PARENTCODE" xml:space="preserve">
+    <value>Số tài khoản không hợp lệ. Số tài khoản chi tiết phải bắt đầu bằng số tài khoản tổng hợp</value>
+  </data>
+  <data name="NOT_FOUND" xml:space="preserve">
+    <value>Không tìm thấy</value>
+  </data>
+  <data name="NOT_START_WITH_FAIL" xml:space="preserve">
+    <value>Số tài khoản có phần đầu &lt;{0}&gt; trùng với tài khoản con cùng cấp &lt;{1}&gt; .</value>
+  </data>
+  <data name="NO_BALANCE" xml:space="preserve">
+    <value>Không có số dư</value>
+  </data>
+  <data name="NO_DELETE" xml:space="preserve">
+    <value>Xóa không thành công. Tài khoản đã có phát sinh trên các danh mục, chứng từ.</value>
+  </data>
+  <data name="NO_EXIST_PARENT" xml:space="preserve">
+    <value>Tài khoản tổng hợp không tồn tại</value>
+  </data>
+  <data name="ORDER" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="SHEET_NAME" xml:space="preserve">
+    <value>Danh sách hệ thống tài khoản</value>
+  </data>
+  <data name="STOP" xml:space="preserve">
+    <value>Ngừng sử dụng</value>
+  </data>
+  <data name="USE" xml:space="preserve">
+    <value>Sử dụng</value>
+  </data>
+</root>
